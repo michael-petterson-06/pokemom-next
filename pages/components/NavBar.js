@@ -12,7 +12,7 @@ export default function NavBar() {
               height= '30'
               alt='Pokemon'                         
             />
-            <h1>Pokemom</h1>
+            <h1>Pokemon</h1>
           </div>   
           <ul className={styles.link_items}>
             <li>
