@@ -3,7 +3,6 @@ import NavBar from "./NavBar";
 import Header from 'next/head';
 
 
-
 export default function Layout({children}){
     return (
         <>
@@ -12,7 +11,7 @@ export default function Layout({children}){
             <title>Pokemon</title>
           </Header>
           <NavBar/>
-          <main>{children}</main>
+          <main className='main-container'>{children}</main>
           <Footer/>
         </>
         
